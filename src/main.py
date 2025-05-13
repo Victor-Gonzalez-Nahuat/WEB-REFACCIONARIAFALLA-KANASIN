@@ -12,7 +12,7 @@ def main(page: ft.Page):
     
 
     logo = ft.Image(
-    src="https://i.ibb.co/8LxBQKh2/images.png", 
+    src="https://i.ibb.co/nNPf9yXK/Whats-App-Image-2025-05-13-at-15-40-55-2d8a555d.jpg", 
     width=60,
     height=60,
     fit=ft.ImageFit.CONTAIN
@@ -52,7 +52,7 @@ def main(page: ft.Page):
     resultado_card = ft.Container(
         ft.Row([
             ft.Image(
-            src="https://i.ibb.co/8LxBQKh2/images.png", 
+            src="https://i.ibb.co/nNPf9yXK/Whats-App-Image-2025-05-13-at-15-40-55-2d8a555d.jpg", 
             width=250,
             height=250,
             fit=ft.ImageFit.CONTAIN
