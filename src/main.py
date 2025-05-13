@@ -46,7 +46,7 @@ def main(page: ft.Page):
             codigo_input
         ]),
         padding=20,
-        bgcolor="#97cb82",
+        bgcolor="#77c059",
         border_radius=ft.BorderRadius(top_left=0, top_right=0, bottom_left= 20, bottom_right= 20),  # Esquinas inferiores redondeadas
     )
     resultado_card = ft.Container(
