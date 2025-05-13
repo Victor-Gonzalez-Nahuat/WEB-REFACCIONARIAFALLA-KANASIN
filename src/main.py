@@ -5,7 +5,7 @@ API_URL = "https://api-refaccionaria-kanasin-production.up.railway.app/producto/
 
 def main(page: ft.Page):
     page.theme_mode = ft.ThemeMode.LIGHT
-    page.theme = ft.Theme(color_scheme_seed=ft.Colors.RED)
+    page.theme = ft.Theme(color_scheme_seed=ft.Colors.GREEN)
     page.title = "Consulta de Producto"
     page.padding = 10
 
@@ -46,7 +46,7 @@ def main(page: ft.Page):
             codigo_input
         ]),
         padding=20,
-        bgcolor="#e9423a",
+        bgcolor="#97cb82",
         border_radius=ft.BorderRadius(top_left=0, top_right=0, bottom_left= 20, bottom_right= 20),  # Esquinas inferiores redondeadas
     )
     resultado_card = ft.Container(
